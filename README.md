@@ -2,7 +2,7 @@
 
 ## Install
 
-git clone <your-repo>
+git clone https://github.com/NielEletronica/dotfiles
 cd dotfiles
 chmod +x install.sh
 ./install.sh
