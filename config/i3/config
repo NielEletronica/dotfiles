@@ -215,7 +215,4 @@ bar {
 # PROTIP: You can also dynamically set dmenu's colors this way:
 bindsym $mod+d exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
 
-#exec_always --no-startup-id feh --bg-fill /usr/share/backgrounds/archlinux/gritty.png
-exec_always --no-startup-id ~/.fehbg
-
-exec_always --no-startup-id xrandr --output Virtual-1 --mode 1920x1080
+exec --no-startup-id ~/.config/i3/autostart.sh

@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Restore pywal colors
-wal -R
+wal -i /usr/share/backgrounds/archlinux/gritty.png
 
 # Wallpaper
-feh --bg-fill "$(cat ~/.config/wallpaper/current)"
+feh --bg-fill /usr/share/backgrounds/archlinux/svalbard.jpg
 
 # Services
 nm-applet &
