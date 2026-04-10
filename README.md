@@ -2,9 +2,12 @@
 
 ## Install
 
-git clone https://github.com/NielEletronica/dotfiles
+git clone https://github.com/NielEletronica/dotfiles  
+
 cd dotfiles
-chmod +x install.sh
+
+chmod +x install.sh  
+
 ./install.sh
 
 ## Includes
