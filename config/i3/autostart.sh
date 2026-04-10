@@ -17,3 +17,7 @@ blueman-applet &
 xinput set-prop 10 298 0 1 0
 xinput set-prop 10 295 -0.55
 
+#monitor
+xrandr \
+  --output DVI-I-0 --mode 1600x900 --left-of HDMI-0 \
+  --output HDMI-0 --mode 1920x1080
