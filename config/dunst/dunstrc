@@ -1,0 +1,24 @@
+[global]
+frame_color = "#515452"
+separator_color = frame
+monitor = 1
+scale = 2
+origin = bottom-right
+font = JetBrainsMono Nerd Font 18
+frame_width = 0
+
+[urgency_low]
+background = "#0E0F11"
+foreground = "#85bbd7"
+timeout = 5
+
+[urgency_normal]
+background = "#0E0F11"
+foreground = "#85bbd7"
+timeout = 5
+
+[urgency_critical]
+background = "#0B5AA1"
+foreground = "#0E0F11"
+frame_color = "#0B5AA1"
+timeout = 0
