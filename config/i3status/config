@@ -16,6 +16,7 @@ order += "load"
 order += "tztime local"
 
 cpu_temperature 0 {
+	path = "/sys/class/hwmon/hwmon2/temp1_input"
         format = "Athlon: %degrees °C"
 }
 
