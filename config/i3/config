@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -126,6 +126,18 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
+#WORKSPACES ON MONITORS
+
+workspace $ws1 output HDMI-0 
+workspace $ws2 output HDMI-0 
+workspace $ws3 output HDMI-0
+workspace $ws4 output HDMI-0
+workspace $ws5 output HDMI-0
+workspace $ws6 output DVI-I-O
+workspace $ws7 output DVI-I-O
+workspace $ws8 output DVI-I-O
+workspace $ws9 output DVI-I-O
+
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2
@@ -204,7 +216,7 @@ client.background       $bg
 # i3status
 bar {
     status_command i3status
-    font pango:JetBrainsMono Nerd Font Regular 10
+    font pango:JetBrainsMono Nerd Font Regular 16
     colors {
         background $bg
         statusline $fg
