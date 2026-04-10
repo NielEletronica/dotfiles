@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/usr/share/backgrounds/archlinux/svalbard.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#03265B",
+        "foreground": "#c6d9e5",
+        "cursor": "#c6d9e5"
+    },
+    "colors": {
+        "color0": "#03265B",
+        "color1": "#6E9DC1",
+        "color2": "#76B2D3",
+        "color3": "#A6A3AD",
+        "color4": "#8FB6D0",
+        "color5": "#ACB8CA",
+        "color6": "#95C3DC",
+        "color7": "#c6d9e5",
+        "color8": "#8a97a0",
+        "color9": "#6E9DC1",
+        "color10": "#76B2D3",
+        "color11": "#A6A3AD",
+        "color12": "#8FB6D0",
+        "color13": "#ACB8CA",
+        "color14": "#95C3DC",
+        "color15": "#c6d9e5"
+    }
+}

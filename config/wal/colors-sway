@@ -1,0 +1,21 @@
+set $wallpaper /usr/share/backgrounds/archlinux/gritty.png
+
+set $background #0E0F11
+set $foreground #85bbd7
+
+set $color0 #0E0F11
+set $color1 #515452
+set $color2 #5F615E
+set $color3 #6C6E6B
+set $color4 #7E817E
+set $color5 #0B5AA1
+set $color6 #51738A
+set $color7 #85bbd7
+set $color8 #5d8296
+set $color9 #515452
+set $color10 #5F615E
+set $color11 #6C6E6B
+set $color12 #7E817E
+set $color13 #0B5AA1
+set $color14 #51738A
+set $color15 #85bbd7

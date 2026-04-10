@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/usr/share/backgrounds/archlinux/gritty.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0F11",
+        "foreground": "#85bbd7",
+        "cursor": "#85bbd7"
+    },
+    "colors": {
+        "color0": "#0E0F11",
+        "color1": "#515452",
+        "color2": "#5F615E",
+        "color3": "#6C6E6B",
+        "color4": "#7E817E",
+        "color5": "#0B5AA1",
+        "color6": "#51738A",
+        "color7": "#85bbd7",
+        "color8": "#5d8296",
+        "color9": "#515452",
+        "color10": "#5F615E",
+        "color11": "#6C6E6B",
+        "color12": "#7E817E",
+        "color13": "#0B5AA1",
+        "color14": "#51738A",
+        "color15": "#85bbd7"
+    }
+}

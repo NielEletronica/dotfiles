@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/usr/share/backgrounds/archlinux/gritty.png"
+let background = "#0E0F11"
+let foreground = "#85bbd7"
+let cursor     = "#85bbd7"
+
+" Colors
+let color0  = "#0E0F11"
+let color1  = "#515452"
+let color2  = "#5F615E"
+let color3  = "#6C6E6B"
+let color4  = "#7E817E"
+let color5  = "#0B5AA1"
+let color6  = "#51738A"
+let color7  = "#85bbd7"
+let color8  = "#5d8296"
+let color9  = "#515452"
+let color10 = "#5F615E"
+let color11 = "#6C6E6B"
+let color12 = "#7E817E"
+let color13 = "#0B5AA1"
+let color14 = "#51738A"
+let color15 = "#85bbd7"
