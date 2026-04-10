@@ -10,7 +10,7 @@ feh picom \
 thunar thunar-archive-plugin file-roller \
 mpv zathura zathura-pdf-mupdf \
 pavucontrol \
-networkmanager nm-applet \
+networkmanager \
 bluez blueman \
 polkit-gnome \
 xdg-user-dirs \
