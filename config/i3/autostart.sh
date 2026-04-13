@@ -9,7 +9,7 @@ feh --bg-fill /usr/share/backgrounds/archlinux/svalbard.jpg
 # Services
 nm-applet &
 dunst &
-picom &
+picom --config ~/.config/picom/picom.conf &
 blueman-applet &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
