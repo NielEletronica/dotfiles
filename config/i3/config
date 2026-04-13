@@ -225,6 +225,6 @@ bar {
 }
 
 # PROTIP: You can also dynamically set dmenu's colors this way:
-bindsym $mod+p exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
-
+#bindsym $mod+p exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
+bindsym $mod+p exec rofi -show drun -m 0
 exec_always --no-startup-id ~/.config/i3/autostart.sh
