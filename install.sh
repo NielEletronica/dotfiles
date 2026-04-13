@@ -1,4 +1,4 @@
-[#!/bin/bash
+#!/bin/bash
 set -e
 
 DOTFILES_DIR="$(cd "$(dirname "$0")" && pwd)"
@@ -13,7 +13,8 @@ ln -sf "$DOTFILES_DIR/config/dunst" ~/.config/
 ln -sf "$DOTFILES_DIR/config/i3status" ~/.config/
 ln -sf "$DOTFILES_DIR/config/dunst" ~/.config/
 ln -sf "$DOTFILES_DIR/config/picom" ~/.config/
-ln -sf "$DOTFILES_DIR/.bashrc" ~/
+ln -sf "$DOTFILES_DIR/config/wal" ~/.config/
+ln -sf "$DOTFILES_DIR/.zshrc" ~/
 
 echo "Running system setup..."
 bash "$DOTFILES_DIR/scripts/setup-system.sh"
