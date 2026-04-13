@@ -1,0 +1,23 @@
+# ---- Volume ----
+[volume]
+label=VOL: 
+#command=pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}'
+command=~/.config/i3blocks/volume.sh
+interval=1
+
+# ---- Load ----
+[load]
+label=Load: 
+command=cat /proc/loadavg | awk '{print $1}'
+interval=5
+
+# ---- Disk ----
+[disk]
+label=Free: 
+command=df -h / | awk 'NR==2 {print $4}'
+interval=30
+
+# ---- Time ----
+[time]
+command=date '+%H:%M:%S %d-%m-%Y'
+interval=1

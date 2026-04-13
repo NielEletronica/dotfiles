@@ -215,7 +215,7 @@ client.background       $bg
 
 # i3status
 bar {
-    status_command i3status -c ~/.config/i3status/config
+    status_command i3blocks
     font pango:JetBrainsMono Nerd Font Regular 16
     colors {
         background $bg
