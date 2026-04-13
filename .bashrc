@@ -9,5 +9,12 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
-#alacritty colors
-cat ~/.cache/wal/sequences
+#config
+
+cat .cache/wal/sequences # load color scheme
+
+#aliases
+alias p='sudo pacman -S'
+alias r='sudo pacman -R'
+alias u='sudo pacman -Syu'
+alias s='sudo pacman -Sy'
