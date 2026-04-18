@@ -167,7 +167,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+Escape exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -215,6 +215,7 @@ client.background       $bg
 
 # i3status
 bar {
+    tray_output HDMI-0
     status_command i3blocks
     font pango:JetBrainsMono Nerd Font Regular 16
     colors {
@@ -226,5 +227,9 @@ bar {
 
 # PROTIP: You can also dynamically set dmenu's colors this way:
 #bindsym $mod+p exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
-bindsym $mod+p exec rofi -show drun -m 0
+bindsym $mod+p exec rofi -show drun -m 1
+bindsym $mod+shift+e exec nemo
+bindsym $mod+shift+Delete exec ~/.config/i3/powermenu.sh
+
+
 exec_always --no-startup-id ~/.config/i3/autostart.sh

@@ -1,1 +1,4 @@
 #include "~/.cache/wal/colors.Xresources"
+Xcursor.theme: Breeze_Light
+Xcursor.size: 24
+

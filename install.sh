@@ -16,6 +16,7 @@ ln -sf "$DOTFILES_DIR/config/picom" ~/.config/
 ln -sf "$DOTFILES_DIR/config/wal" ~/.config/
 ln -sf "$DOTFILES_DIR/.zshrc" ~/
 ln -sf "$DOTFILES_DIR/config/i3blocks/" ~/.config
+ln -sf "$DOTFILES_DIR/.zprofile" ~/
 
 echo "Running system setup..."
 bash "$DOTFILES_DIR/scripts/setup-system.sh"

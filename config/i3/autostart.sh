@@ -14,8 +14,8 @@ blueman-applet &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 #mouse
-xinput set-prop 10 298 0 1 0
-xinput set-prop 10 295 -0.55
+xinput set-prop 10 300 0 1 0
+xinput set-prop 10 297 -0.4
 
 #monitor
 xrandr \

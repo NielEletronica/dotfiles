@@ -6,6 +6,7 @@ scale = 2
 origin = bottom-right
 font = JetBrainsMono Nerd Font 18
 frame_width = 0
+follow = mouse
 
 [urgency_low]
 background = "#0E0F11"
