@@ -230,6 +230,6 @@ bar {
 bindsym $mod+p exec rofi -show drun -m 1
 bindsym $mod+shift+e exec nemo
 bindsym $mod+shift+Delete exec ~/.config/i3/powermenu.sh
-
+bindsym $mod+period exec emote
 
 exec_always --no-startup-id ~/.config/i3/autostart.sh
