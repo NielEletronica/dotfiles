@@ -3,7 +3,7 @@
 #exec 9>/tmp/wallpaper.lock
 #flock -n 9 || exit 0
 
-DIR="$HOME/Imagens/bgs"
+DIR="$HOME/dotfiles/bgs"
 INTERVAL=600
 OLD=""
 
