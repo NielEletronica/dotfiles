@@ -1,0 +1,74 @@
+{
+  "position": "bottom",
+  "spacing": 0,
+  "height": 0,
+  "reload_style_on_change": true,
+  "layer": "top",
+  "custom/separator": {
+    "format": "::",
+    "interval": "once",
+    "tooltip": false
+  },
+  "modules-left": [
+    "sway/workspaces",
+    "sway/mode"
+  ],
+  "modules-center": [
+    "sway/window"
+  ],
+  "modules-right": [
+    "tray",
+    "cpu",
+    "custom/separator",
+    "memory",
+    "custom/separator",
+    "pulseaudio",
+    "custom/separator",
+    "network",
+    "custom/separator",
+    "clock"
+  ],
+  "sway/window": {
+    "max-length": 50
+  },
+  "tray": {
+    "spacing": 10,
+    "tooltip": false
+  },
+  "cpu": {
+    "format": "cpu {usage}%",
+    "interval": 20,
+    "states": {
+      "critical": 90
+    }
+  },
+  "memory": {
+    "format":  "mem {percentage}%",
+    "interval": 5,
+    "states": {
+      "critical": 80
+    }
+  },
+  "network": {
+    "format-wifi": "wifi {bandwidthDownBits}",
+    "format-ethernet": "net: ok",
+    "format-disconnected": "net: not ok",
+    "interval": 60,
+    "tooltip": false
+  },
+  "pulseaudio": {
+    "scroll-step": 5,
+    "max-volume": 150,
+    "format": "{desc} vol {volume}%",
+    "format-bluetooth": "{desc} vol {volume}%",
+    "format-muted": "{desc} vol MUTE",
+    "nospacing": 1,
+    "tooltip": false,
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "on-click-middle": "pavucontrol",
+    "on-click-right": "~/.config/waybar/scripts/toggle_audio.sh"
+  },
+  "clock": {
+    "format": "{:%d/%m/%Y  %H:%M:%S}"
+  }
+}
